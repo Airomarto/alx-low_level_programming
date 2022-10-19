@@ -1,22 +1,18 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
- * Return: o depicting success after execution
+ * Return: Always 0 (Success)
  */
 int main(void)
-
 {
-	char f;
+	char x = 97;
 
-	putchar("Lower (lower) case characters:\n");
-	for (f = 'a'; f <= 'z'; f++)
-	putchar("%c ", f);
-
-	putchar("\n\nCapital case characters:\n");
-	for (f = 'A'; f <= 'Z'; f++)
-	putchar("%c ", f);
-
+	while (x <= 122)
+	{
+		putchar(x);
+		x++;
+	}
+	putchar(10);
 	return (0);
 }
