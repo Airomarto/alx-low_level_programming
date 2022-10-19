@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	char x = 48;
+	char y = 48;
 
-	while (x <= 57)
+	while (y <= 57)
 	{
-		putchar(x);
-		x++;
+		putchar(y);
+		y++;
 	}
 	putchar(10);
 	return (0);

@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-	char x = 48;
+	char t = 48;
 
-	while (x <= 57)
+	while (t <= 57)
 	{
-		putchar(x);
-		x++;
+		putchar(t);
+		t++;
 	}
-	x = 97;
-	while (x <= 102)
+	t = 97;
+	while (t <= 102)
 	{
-		putchar(x);
-		x++;
+		putchar(t);
+		t++;
 	}
 	putchar(10);
 	return (0);

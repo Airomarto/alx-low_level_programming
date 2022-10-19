@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	char x = 97;
+	char b = 97;
 
-	while (x <= 122)
+	while (b <= 122)
 	{
-		if (x != 113 && x != 101)
-			putchar(x);
+		if (b != 113 && b != 101)
+			putchar(b);
 		x++;
 	}
 	putchar(10);
