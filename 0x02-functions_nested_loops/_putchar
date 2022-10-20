@@ -1,6 +1,7 @@
-#include "main.h"
+#include <unistd.h>
 /**
- * main - Entry point
+ * putchar - writes the character c to stdout
+ *the character to be printed
  *
  * Return: Always 0 (Success)
  */
