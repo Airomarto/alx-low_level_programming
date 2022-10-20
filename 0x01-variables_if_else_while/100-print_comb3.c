@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -14,16 +14,15 @@ int main(void)
 		while (j <= '9')
 		{
 			if (!(i > j || i == j))
-																		{
+			{
 				putchar(i);
 				putchar(j);
-																			if (i == '8' && j == '9')
-																			{
-					putchar('\n');
-				}
-																			else
+				if (i == '8' && j == '9')
 				{
-																				putchar(',');
+					putchar('\n');
+				}	
+																			else
+				{																putchar(',');
 					putchar(' ');
 				}
 			}															j++;
