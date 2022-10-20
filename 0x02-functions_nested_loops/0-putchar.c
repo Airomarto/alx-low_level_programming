@@ -1,16 +1,16 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - Entry point
  *
- * Return: 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char a[] = "_putchar";
-	int b;
+	char c[] = "_putchar";
+	int i;
 
-	for (b = 0; b < 8; b++)
-		_putchar(a[b]);
+	for (i = 0; i < 8; i++)
+		_putchar(c[i]);
 	_putchar('\n');
 	return (0);
 }
