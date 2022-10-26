@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
   * print_diagobal - print diagonal lines
   * @n: number of times '\'
   * will be printed
-  * Return: the diagonal lines on a new line
   */
 
 void print_diagonal(int n)
