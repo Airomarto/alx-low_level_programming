@@ -4,7 +4,6 @@
   * @n: number of times '\'
   * will be printed
   */
-
 void print_diagonal(int n)
 {
 	int i, a;
