@@ -3,7 +3,7 @@
  * print_diagobal - print diagonal lines
  * @n: number of times '\' is printed
  */
-void print_diagonal(int n)
+void print_diagonal (int n)
 {
 	int i, a;
 
