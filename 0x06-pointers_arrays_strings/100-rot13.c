@@ -10,9 +10,9 @@ char *rot13(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if ((s[i] >= 'a' && s[i] <= 'm') || (s[i] >= 'A' && s[i] <= 'M'))
+		if ((s[i] >= 'a' && s[i] < 'n') || (s[i] >= 'A' && s[i] < 'n'))
 			s[i] += 13;
-		else if ((s[i] >= 'n' && s[i] <= 'z') || (s[i] >= 'N' && s[i] <= 'Z'))
+		else if ((s[i] > 'm' && s[i] <= 'z') || (s[i] >= 'M' && s[i] <= 'Z'))
 			s[i] -= 13;
 	}
 	return (s);
